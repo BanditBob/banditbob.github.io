@@ -1,34 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  width: 100%;
-  min-height: 100%;
-  margin: auto;
-  font-family: "JetBrains Mono", serif;
-  font-size: medium;
+    width: 100%;
+    min-height: 100%;
+    margin: auto;
+    font-family: "JetBrains Mono", serif;
+    font-size: medium;
 }
 
 body {
-  /* padding: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  border: 1px solid red;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid red; */
 }
 
 .contactDetails {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.contactDetails > li {
-  border: 1px solid green;
+img {
+    height: 32;
+    width: 32;
 }
 
 /* section {
