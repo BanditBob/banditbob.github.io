@@ -1,10 +1,9 @@
-// window.onload = function () {
-//     alert("It freakin worked!");
-// }
+/**
+ * 
+ */
 
-// (() => {
 let logos = {
-    web_dev: [
+    web_devevelopment: [
         { n: "angularjs", v: "original" },
         { n: "axios", v: "plain" },
         { n: "bootstrap", v: "original" },
@@ -47,19 +46,26 @@ let logos = {
 
 $(document).ready(() => {
     console.clear();
-    // console.log($("#skills").children());
-    const skills = $("#skills");
 
-    console.log(skills.children())
+    // console.log(group);
+    // }
 
-    for (let k in logos) {
-        logos[k].forEach(el => {
-            console.log(el.n + "-" + el.v)
-            $("<img height='48' width='48'/>")
-                // .attr("src", `https://cdn.jsdeliver.net/gh/devicons/devicons@latest/icons/${el.n}/${el.n}-${el.v}.svg`)
-                .appendTo(skills);
-        });
-        $("<hr />").appendTo(skills);
-    }
+    // web_dev.forEach(x => {
+    //     console.log(x);
+    // });
 
+    /**
+     *   console.log($("#skills").children());
+     *   const skills = $("#skills");
+     *   console.log(skills.children();
+     *   for (let k in logos) {
+     *       logos[k].forEach(el => {
+     *           console.log(el.n + "-" + el.v)
+     *           $("<img height='48' width='48'/>")
+     *   .attr("src", `https://cdn.jsdeliver.net/gh/devicons/devicons@latest/icons/${el.n}/${el.n}-${el.v}.svg`)
+     *           .appendTo(skills);
+     *   });
+     *   $("<hr />").appendTo(skills);
+     *   }
+     */
 });
